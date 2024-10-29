@@ -1,1 +1,1 @@
-# 100-scripts-for-100-days
+# 100 scripts for 100 days
