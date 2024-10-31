@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#tetris-board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    background-color: #000;
+}
+
+#tetris-board div {
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
