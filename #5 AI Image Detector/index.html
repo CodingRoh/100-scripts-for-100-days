@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Image Detector</h1>
+        <p>Select an image to analyze:</p>
+        <input type="file" id="image-upload" accept="image/*">
+        <button id="analyze-btn">Analyze Image</button>
+        
+        <div class="result-container">
+            <p id="result-text"></p>
+            <img id="uploaded-image" src="" alt="Uploaded Image" style="display: none;">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
